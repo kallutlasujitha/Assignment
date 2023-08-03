@@ -3,7 +3,7 @@ a='ram is good boy'
 b=a.split()
 c=b[::-1]
 d=(" ".join(c))
-print(d)
+print(c)
 
 #Assignment-2 output:ABCDEFGHI
 s="ABCDAABBCCDDEEFFGGHI"
@@ -13,5 +13,3 @@ for j in s:
         p.append(j)
 x="".join(p)
 print(x)
-
-
